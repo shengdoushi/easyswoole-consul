@@ -207,7 +207,7 @@ class BaseFunc
      */
     private function toRequestParam(BaseCommand $request): string
     {
-        $data = array_filter($request->toArray(), function ($item) {
+        $data = array_filter($request->toArrayWithMapping(), function ($item) {
             // 只过滤null和空值
             if ($item === '' || $item === null) {
                 return false;
@@ -220,7 +220,7 @@ class BaseFunc
 
     private function toRequestJson(BaseCommand $request): ?string
     {
-        $data = array_filter($request->toArray(), function ($item) {
+        $data = array_filter($request->toArrayWithMapping(), function ($item) {
             // 只过滤null和空值
             if ($item === '' || $item === null) {
                 return false;

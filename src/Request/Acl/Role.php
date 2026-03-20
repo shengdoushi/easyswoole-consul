@@ -8,7 +8,6 @@
 namespace EasySwoole\Consul\Request\Acl;
 
 use EasySwoole\Consul\Request\BaseCommand;
-use EasySwoole\Spl\SplBean;
 
 /**
  * Sample

@@ -7,7 +7,6 @@
  */
 namespace EasySwoole\Consul\Request;
 
-use EasySwoole\Spl\SplBean;
 
 /**
  * Sample

@@ -8,7 +8,6 @@
 namespace EasySwoole\Consul\Request\Connect;
 
 use EasySwoole\Consul\Request\BaseCommand;
-use EasySwoole\Spl\SplBean;
 
 /**
  * Class Intentions

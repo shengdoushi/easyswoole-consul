@@ -7,7 +7,7 @@
  */
 namespace EasySwoole\Consul\Request;
 
-use EasySwoole\Spl\SplBean;
+use EasySwoole\Consul\Spl\SplBean;
 
 class BaseCommand extends SplBean
 {

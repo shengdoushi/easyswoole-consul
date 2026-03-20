@@ -7,7 +7,7 @@
  */
 namespace EasySwoole\Consul\Request\Acl\Role;
 
-use EasySwoole\Spl\SplBean;
+use EasySwoole\Consul\Spl\SplBean;
 
 class Name extends SplBean
 {

@@ -1,7 +1,7 @@
 <?php
 namespace EasySwoole\Consul;
 
-use EasySwoole\Spl\SplBean;
+use EasySwoole\Consul\Spl\SplBean;
 
 /**
  * 初始化 consul接口的ip:port/controller信息。不包含对应的action,param
